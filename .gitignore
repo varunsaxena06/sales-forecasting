@@ -1,0 +1,48 @@
+# -----------------------
+# Python cache
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------
+# Virtual environments
+# -----------------------
+.venv/
+env/
+venv/
+
+# -----------------------
+# Jupyter Notebook checkpoints
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# Logs & temporary files
+# -----------------------
+*.log
+*.tmp
+*.swp
+
+# -----------------------
+# Data files
+# -----------------------
+# Ignore large raw datasets
+data/*.csv
+# Keep one small sample file (if needed)
+!data/sample.csv
+
+# -----------------------
+# Reports / Outputs
+# -----------------------
+# Ignore all CSV results but keep metrics + plots
+reports/*.csv
+!reports/metrics.json
+!reports/forecast_plot.png
+
+# -----------------------
+# OS-specific files
+# -----------------------
+.DS_Store
+Thumbs.db
